@@ -1,2 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-/* Your CSS Code here. */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid black;
+    width: 100px;
+}
+
+thead th {
+    background-color: darkred;
+    color: white;
+}
+
+tbody tr.waist td {
+    background-color: indianred;
+    color: white;
+}
+
+tbody tr.chest td {
+    background-color: lightpink;
+}
+
+tbody tr.sleeve td {
+    background-color: lightgray;
+}
